@@ -176,16 +176,20 @@ function AddNewToAnbar() {
 
             <div className="row ">
               <div className="form-group col-md-3 m-auto my-3 ">
-                <button
-                  type="submit"
-                  onClick={submitHandler}
-                  className="btn btn-primary xpc colorButtoms"
-                  style={{
-                    width: '225px',
-                  }}
-                >
-                  اضافه کردن به انبار
-                </button>
+                {state.loading ? (
+                  <Loader />
+                ) : (
+                  <button
+                    type="submit"
+                    onClick={submitHandler}
+                    className="btn btn-primary xpc colorButtoms"
+                    style={{
+                      width: '225px',
+                    }}
+                  >
+                    اضافه کردن به انبار
+                  </button>
+                )}
               </div>
             </div>
           </form>
