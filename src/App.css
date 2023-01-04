@@ -1,0 +1,54 @@
+.foo {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.colorify {
+  background-color: #f17a5c;
+}
+.coloritable {
+  background-color: #097e7e;
+}
+.colorButtoms {
+  background-color: #ff9c00;
+  border: none;
+}
+.colorButtoms:hover {
+  background-color: #ff9c00;
+  border: none;
+}
+.marginManfi {
+  margin-top: -40px;
+}
+.rtl1 {
+  direction: rtl;
+}
+
+.listItem {
+  text-decoration: none;
+  list-style-type: none;
+}
+.colorButtoms2 {
+  background-color: #da3b20e1;
+  border: none;
+}
+.colorButtoms2:hover {
+  background-color: #ff9c00;
+  border: none;
+}
+
+.landingPage {
+  min-height: 80vh;
+  background-image: url('./image/x.PNG');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+}
+.landing1 {
+  width: 1365px;
+  height: 535px;
+}
